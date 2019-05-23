@@ -1,4 +1,4 @@
-package com.example.searchbookapp.view
+package com.example.searchbookapp.view.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
