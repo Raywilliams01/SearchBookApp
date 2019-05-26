@@ -18,14 +18,14 @@ class BookItemViewModal: ViewModel() {
 
     private fun getBookList() {
         val mockBook = listOf(
-            BookItemList(auth = "Bod", authBookTitle = "Burger"),
-            BookItemList(auth = "Bod", authBookTitle = "Burger"),
-            BookItemList(auth = "Bod", authBookTitle = "Burger"),
-            BookItemList(auth = "Bod", authBookTitle = "Burger"),
-            BookItemList(auth = "Bod", authBookTitle = "Burger"),
-            BookItemList(auth = "Bod", authBookTitle = "Burger"),
-            BookItemList(auth = "Bod", authBookTitle = "Burger"),
-            BookItemList(auth = "Bod", authBookTitle = "Burger")
+            BookItemList(auth = "Bob", authBookTitle = "Burger"),
+            BookItemList(auth = "Bob", authBookTitle = "Burger"),
+            BookItemList(auth = "Bob", authBookTitle = "Burger"),
+            BookItemList(auth = "Bob", authBookTitle = "Burger"),
+            BookItemList(auth = "Bob", authBookTitle = "Burger"),
+            BookItemList(auth = "Bob", authBookTitle = "Burger"),
+            BookItemList(auth = "Bob", authBookTitle = "Burger"),
+            BookItemList(auth = "Bob", authBookTitle = "Burger")
         )
 
         bookLoadError.value = false
